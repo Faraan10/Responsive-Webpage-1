@@ -1,0 +1,64 @@
+
+.firstdiv{
+    background-image: url("https://digitalhub.fifa.com/transform/8ee6c039-d966-4fb8-b5aa-6a64edfef317/FIFAPLS_SE_WhoToWatchEight_Main_Hero_01_V1");
+    background-size:cover;
+    height:120vh;
+    width:98%;
+}
+.boxes{
+    margin-top:20px;
+    height:320px;
+    width:360px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:10px;
+}
+.boximgs{
+    height:220px;
+    width:358px;
+    border-radius:8px;
+}
+.headbox{
+    font-family:arial;
+    font-size:20px;
+    text-align:center;
+    margin-top:20px;
+}
+.parabox{
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    text-align:center;
+}
+
+@media (max-width:992px){
+    .firstdiv{
+        background-size: cover;
+        height:100vh
+    }
+}
+@media (max-width:768px){
+    .firstdiv{
+        background-size: cover;
+        height:100vh;
+
+    }
+}
+@media (max-width:576px){
+    .firstdiv{
+        background-size: cover;
+        height:100vh;
+
+    }
+}
+
+@media (max-width:1300px){
+    .boxes{
+        height:370px;
+        width:270px;
+    }
+    .boximgs{
+        height:268px;
+        width:268px;
+    }
+}
